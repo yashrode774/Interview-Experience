@@ -1,6 +1,6 @@
 1. OA(Virtual): Can't remember the exact qustions but there were 2 DSA questions and after that some LP(leadership principles)
-2. Phone screen interview(Virtual): One DSA question, there are n tasks and also given an dependencies array, we need to tell if we can complete all the tasks or not.(Cycle detection graph)
-3. DSA (Onsite): Trapping Rain water and 2-3 LP questoins.
-4. Low level desgin(Onsite): Design alexa(Both High level desgin as well low level(class diagram for it.)). 
-  Basically when we give command to alexa Turn on bulb, till the bulb get's turned on, tell everythign how it works. Serveral cross questions on the desgin I was drawing. + 2 LP questions.
+2. Phone screen interview(Virtual): One DSA question, there are n tasks and also given a dependencies array, we need to tell if we can complete all the tasks or not.(Cycle detection graph)
+3. DSA (Onsite): Trapping Rain water and 2-3 LP questions.
+4. Low level desgin(Onsite): Design alexa(Both High level desgin as well low level(class diagram for it)). 
+  Basically when we give command to alexa Turn on bulb, till the bulb get's turned on and gives us response back "OK", tell everythign how it works. Serveral cross questions on the desgin I was drawing. + 2 LP questions.
 5. High-level desgin(On site): Design domino's billing system, high level design, majorly focused on, how can we manage the scenario when the internet is not available. discussed how the discount works. + 2 LP + some HR questoins like why amazon, why do I want to change the job.
