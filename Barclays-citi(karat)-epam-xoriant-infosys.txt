@@ -1,11 +1,11 @@
-Barclays
+# Barclays
 - Inheritance in very detail, how it will work for the access modifiers and thorws Exception.
 - HashMap internal working, can we modify the hash function?
 - Simple SQL
 - Behavioural round (Went well for me but no offer)
 
 
-Epam:
+# Epam:
 Sliding window coding question, largest window with no duplicate (1st interveiw) + 1 SQL query moderate level
 - [ ] How indexing work in the db, types of indexing
 - [ ] What is difference between save and persist
@@ -51,14 +51,14 @@ Sliding window coding question, largest window with no duplicate (1st interveiw)
 - [x] Rain water tapping coding question
 
 
-Xoriant
+# Xoriant
 - Failed because of Immutable class(instead of private final data member I said final static)
 - asked a SQL query
 - asked multithreading, serialization, example of deadlock, how it actually happens
 - asked a easy coding question and then asked to implement it using streams
 - asked basic OOP things, has-a and is-a relationship
 
-Infosys: 
+# Infosys: 
 - Got an offer
 - Overall process of an spring boot app what all layers it goes through
 - what is IOC and @Autowired
@@ -66,7 +66,7 @@ Infosys:
 - Git related things(local and remote)
 - Project life cycle things
 
-Citi: (karat: External company who took the first screening interview) -- Theory part was very hard to be honest
+# Citi: (karat: External company who took the first screening interview) -- Theory part was very hard to be honest
 - how to do something before returing a response from a controller
 - how to do something after
 - how to implement paginatin and sorting
