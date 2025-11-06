@@ -92,6 +92,97 @@ Biased for action:
 
 
 	
+Bar Raiser: Swip line question and 1 LP.
+
+/*
+Q: You are building a software to track radiation events for a particle accelerator experiment. 
+Assume that the experiment starts at 0 μS and ends at T μS. 
+There are multiple radiation events tracked by various sensors where each radiation event has a start time, 
+say S μS, and end time, say E μS and a radiation level say R Bq(unit of radiation). 
+Given a set of radiation events[<S1, E1, R1>, <S2, E2, R2>, ...<SN, EN, RN>]
+(0<SX<T and 0<EX<T and RX is an integer) and that cumulative radiation level at any instant of time is additive,
+you are to find out all intervals during the experiment where cumulative radiation level was > RTarget?
+*/
+
+T = 50
+Rtarget = 49
+
+S1, E1, R1
+3 17 100 lr
+10 25 50 r [3 - 25]
+
+26 30 40 l
+30 35 500 r [26 - 35] currR = 540
+
+3 - 25
+30 - 35
+
+3 -10 = 100
+10 - 17 = 150
+17 - 25 = 50
+
+3 - 25
+
+10 - 80
+15 - 90
+12 - 60
+14 - 70
+
+
+List<int[]> findiIntervals(List<int[]> radiations, int T, Rtarget) {
+    List<int[]> ans = new ArrayList<>();
+    int n = radiations.size();
+    int l = 0;
+    int r = 0;
+    Collections.sort(raditons, (a, b) -> a[0] - b[0]); 
+    
+    int currR = 0;
+    while (r < n && r >= l) {
+        if (l == r) {
+            currR += r[2];
+            r++;
+        }
+        
+    }
+    
+    return ans;
+}
+
+/*
+Event 1: <0, 10, 5> l 
+Event 2: <1, 4, 6>   curr = 11
+Event 3: <2, 3, 4> r curr = 15
+RTarget = 10
+
+0 3 -> 5
+1 4 -> 5, 6
+2 10 -> 4
+
+3 17 100
+10 25 50
+
+-> 2 - 35			50.      0   
+         100   50       -100    -50  
+0 1 2 3 …   10         18        26
+
+0-> 5 st
+1-> 6 st 
+2 -> 4 st
+3-> -4 en
+4-> -6 en
+10-> -5 en
+
+St = 0;
+Cnt = 1
+Currently = 5
+
+
+{{2, 3, 15}
+
+	    		5
+	0      			10
+
+
 
 
 
